@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  font-family: Calibri;
+  font-size: 30px;
+}
+
+p {
+    color: #dddddd;
+    font-family: Arial;
+    text-align: left;
+    font-size: 14px;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;      
+}
+
+footer {
+    color: #dddddd;    
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footernav {
+    color: white;
+    text-align: right;
+    font-family: Arial;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+headline {
+    color: white;
+    text-align: left;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+smallheadline {
+    color: white;
+    text-align: left;
+    font-family: Calibri;
+    font-size: 13px;
+    font-weight: bold;    
+}
+
+smallerheadline {
+    color: #aaaaaa;    
+    font-family: Arial;
+    font-size: 10px;      
+}
+
+formText {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333333;
+}
+
+li2 {
+ float: right;
+}
+
+li2 a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li2 a:hover {
+  background-color: #333333;
+}
+
+</style>
+</head>
+<body>
+  
+<table width = "100%" border = "0" cellpadding = "10" cellspacing = "5">
+	<tr>
+		<td width = "30%"><h1>Stamp</h1></td>
+        <td width = "60%">
+        <nav>
+        <ul>
+		<li><a href="#home">About</a></li>
+		<li><a href="#">Integrations</a></li>
+		<li><a href="#">Pricing</a></li>
+		<li><a href="#">Contacts</a></li>
+		</ul></nav>
+        </td>
+        <td width = "15%"></td>
+    </tr>
+</table>
+
+<table width = "100%" height = "400" border ="0" cellpadding="5" cellspacing="5">
+    <tr>
+        <td align="center" width="60%">
+            <table width="85%" border="0" cellpadding="10" cellspacing="5">
+                <tr>
+                    <td><headline>Simple Way to<br />Organize Your<br />Inspirations</headline>
+                    <p>I think what motivates people is not great hate,<br />but great love for other people.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td align="center" width="40%"><smallheadline>SIGN UP FOR FREE</smallheadline><p></p>
+            <table width="80%" border="0" cellpadding="10" cellspacing="1">
+                <tr>
+                    <td align="left" valign="middle" style="background:rgba(255, 255, 255, 0.25)"><formText>Name</formText></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="middle" style="background:rgba(255, 255, 255, 0.25)"><formText>E-mail</formText></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="middle" style="background:rgba(255, 255, 255, 0.25)"><formText>Password</formText></td>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle" bgcolor="#2c99ed"><nav>Sign up ></nav></td>
+                </tr>
+            </table>
+            <p></p>
+            <smallerheadline>By clicking "Sign up" I agree to our</smallerheadline><br /><footer>Terms of Service</footer>
+        </td>
+    </tr>
+</table>
+
+<table width = "100%" border = "0" cellpadding = "10" cellspacing = "5">
+	<tr>
+		<td width = "25%" align="left"><footer>&copy; 2016 Stamp. All Rights Reserved.</footer></td>
+        <td width = "75%">
+        <ul><footernav>
+        <li2><a href="#">PRIVACY POLICY</a></li2>
+        <li2><a href="#">TERMS OF USE</a></li2>
+        <li2><a href="#">HELP</a></li2>
+        <li2><a href="#home">CONTACT</a></li2>
+            </footernav>
+        </ul>
+        </td>
+        </tr>
+</table>
+
+</body>
+</html>
